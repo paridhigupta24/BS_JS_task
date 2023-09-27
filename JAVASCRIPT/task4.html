@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 4</title>
+</head>
+<body>
+    <h1>Date and Time Display</h1>
+    <div>
+
+    <button onclick="showDate()">Show Date</button>
+</div>
+<div>
+    <button onclick="showTime()">Show Time</button>
+</div>
+
+    <p id="output"></p>
+
+    <script>
+        function showDate() {
+            const currentDate = new Date();
+            const options = { day: 'numeric', month: 'long', year: 'numeric' };
+            const formattedDate = currentDate.toLocaleDateString('en-US', options);
+            document.getElementById('output').textContent = formattedDate;
+        }
+
+        function showTime() {
+            const currentDate = new Date();
+            const options = {
+                weekday: 'long',
+                day: 'numeric',
+                month: 'long',
+                year: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit',
+                timeZoneName: 'short'
+            };
+            const formattedTime = currentDate.toLocaleDateString('en-US', options);
+            document.getElementById('output').textContent = formattedTime;
+        }
+        
+    </script>
+</body>
+</html>

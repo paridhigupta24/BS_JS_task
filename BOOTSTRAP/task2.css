@@ -1,0 +1,75 @@
+.image img{
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 300px);
+    min-height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+.nav-link{
+    padding: 0 37px;
+}
+.image .carousel-caption h1 {
+    color: black;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.image .carousel-caption p {
+    color: black;
+    font-size: 30px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+
+.image .carousel-caption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(100vh - 150px);
+    min-height: 400px;
+}
+.name{
+    font-size: 80px;
+    font-weight: 100;
+}
+.image .carousel-caption .btn {
+    padding: 15px 35px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: black;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 0;
+    transition: .3s;
+}
+
+.image .carousel-caption .btn:hover {
+    color: #030f27;
+    background: #fdbe33;
+    border-color: #fdbe33;
+}
+
+.col-lg-4{
+    background: #030f27;
+    color: #fdbe33;
+    padding: 50px;
+}
+
+.second{
+    background: #fdbe33;
+    color: #030f27;
+}
+.feature {
+    position: relative;
+    
+}
+

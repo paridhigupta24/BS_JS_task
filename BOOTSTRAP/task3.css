@@ -1,0 +1,42 @@
+.company{
+    margin-right: auto;
+}
+
+
+.navbar{
+    margin-right: 1rem;
+}
+.price{
+    max-width: 800px;
+}
+
+.display-4{
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.content{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+footer {
+    border-top: 8px solid #333;
+    padding: 2rem 1rem;   
+    display: flex;
+    flex-direction: column;
+    
+  }
+a{
+    text-decoration: none;
+    color: #33333385;
+    font-size: 1.1rem;
+}
+a:hover{
+    color:black;
+}
+.li{
+    text-decoration: none;
+    color: aqua;
+
+}
